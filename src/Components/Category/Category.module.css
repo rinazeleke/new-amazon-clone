@@ -15,7 +15,6 @@
   object-fit: contain;
   max-height: 250px;
   padding: 10px;
-  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
 }
 
 .category a {

@@ -9,7 +9,6 @@
 .card__container:hover .btn {
   display: block;
 }
-
 .card__container img {
   padding: 10px;
   width: 100%;
