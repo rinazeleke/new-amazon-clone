@@ -10,9 +10,9 @@ import ProductDetail from "./Pages/ProductDetail/ProductDetail";
 import { Elements } from "@stripe/react-stripe-js";
 import { loadStripe } from "@stripe/stripe-js";
 
-import ProtectedRoute from "./Components/ProtectedRoute";
+import ProtectedRoute from "./Components/ProductRoute/ProtectedRoute";
 const stripePromise = loadStripe(
-  "pk_test_51PKvNICkW7Xg0DklBXtGBHD2UWfAdaPzHjoPbGixWZDMpaiYPxpc2lmgfH5m35VP7vtsGwyUEHsJj7WNdkIAsj6y00RScQMnji"
+  "pk_test_51PL0aGHs7Rj0Ual6XqOWkmM1jnzmKfxTc2362aIqOrt5ul6hKLLUDgXWYcXwzrGxxD8vVealt6rHo7oCUkl5yzdP005fUA6JKH"
 );
 function Routing() {
   return (

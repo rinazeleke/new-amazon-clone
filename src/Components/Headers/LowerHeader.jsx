@@ -4,6 +4,7 @@ import classes from "./Header.module.css";
 
 const LowerHeader = () => {
   return (
+    
     <div className={classes.lower_container}>
       <ul>
         <li>
@@ -17,6 +18,7 @@ const LowerHeader = () => {
         <li>Sell</li>
       </ul>
     </div>
+
   );
 };
 

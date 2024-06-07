@@ -92,6 +92,7 @@ function Auth() {
               type="email"
               id="email"
             />
+            
           </div>
           <div>
             <label htmlFor="password">Password</label>

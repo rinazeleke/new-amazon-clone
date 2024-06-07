@@ -3,6 +3,7 @@ import { FadeLoader } from "react-spinners";
 
 function Loader() {
   return (
+    
     <div
       style={{
         display: "flex",
@@ -13,6 +14,7 @@ function Loader() {
     >
       <FadeLoader color="#36d7b7" />
     </div>
+
   );
 }
 
